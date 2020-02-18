@@ -101,7 +101,7 @@
 					if(count($requestByUsername->Response) > 1)
 					{
 						echo "<div class=$playersClass>";
-						foreach($requestByUsername->Response as $useSr)
+						foreach($requestByUsername->Response as $user)
 						{
 							echo "<div class=$playerClass>";
 							echo "<div class=$nameClass>";
